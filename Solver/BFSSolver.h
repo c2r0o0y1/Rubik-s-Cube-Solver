@@ -2,15 +2,16 @@
 // Created by Chhandak Roy on 7/23/24.
 //
 
+#include <unordered_map>
+#include <queue>
+#include <cassert>
+
+
+#include "../Model/RubiksCube.h"
+
 #ifndef BFSSOLVER_H
 #define BFSSOLVER_H
 
-
-#include<bits/stdc++.h>
-#include "../Model/RubiksCube.h"
-
-#ifndef RUBIKS_CUBE_SOLVER_BFSSOLVER_H
-#define RUBIKS_CUBE_SOLVER_BFSSOLVER_H
 
 // Typename T: RubiksCube Representation used (3d, 1d, Bitboard)
 // Typename H: Corresponding Hash function
