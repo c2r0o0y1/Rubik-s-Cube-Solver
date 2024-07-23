@@ -5,4 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Rubik_sCubeSolver main.cpp
         Model/RubiksCube.h
-        Model/RubiksCube.cpp)
+        Model/RubiksCube.cpp
+        Model/RubiksCube3dArray.cpp
+        Model/RubiksCube1dArray.cpp
+        Model/RubiksCubeBitBoard.cpp
+        Model/PatternDatabase/PatternDatabase.h
+        Solver/BFSSolver.h)
